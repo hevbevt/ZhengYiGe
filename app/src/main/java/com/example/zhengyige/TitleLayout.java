@@ -19,6 +19,7 @@ public class TitleLayout extends RelativeLayout {
         Button backButton = (Button) findViewById(R.id.back_button);
         Button editButton = (Button) findViewById(R.id.edit_button);
 
+
         backButton.setOnClickListener(new OnClickListener() {
             @Override
             public void onClick(View v) {
